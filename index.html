@@ -43,8 +43,27 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='happy-icons-css' href='./wp-content/plugins/happy-elementor-addons/assets/fonts/style.min688f.css?ver=3.8.4' media='all' />
 <link rel='stylesheet' id='font-awesome-css' href='./wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css?ver=4.7.0' media='all' />
 <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSora%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.2.2' media='all' />
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src='./wp-includes/js/jquery/jquery.min5aed.js?ver=3.6.4' id='jquery-core-js'></script>
-<script src='./wp-includes/js/jquery/jquery-migrate.min6b00.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1043413356547228');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" 
+       src="https://www.facebook.com/tr?id=1043413356547228&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
 
 <script>
 !function(e){if(!window.pintrk){window.pintrk = function () {
@@ -110,19 +129,28 @@ pintrk('page');
 				<div class="elementor-widget-container">
 			<style>.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:right;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:left;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="2275" height="886" src="./wp-content/uploads/2023/06/Logotipo.webp" class="attachment-full size-full wp-image-16932" alt="" loading="lazy" srcset="./wp-content/uploads/2023/06/Logotipo.webp 2275w, ./wp-content/uploads/2023/06/Logotipo-300x117.webp 300w, ./wp-content/uploads/2023/06/Logotipo-1024x399.webp 1024w, ./wp-content/uploads/2023/06/Logotipo-768x299.webp 768w, ./wp-content/uploads/2023/06/Logotipo-1536x598.webp 1536w, ./wp-content/uploads/2023/06/Logotipo-2048x798.webp 2048w" sizes="(max-width: 2275px) 100vw, 2275px" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Découvrez dès maintenant notre Centre de Beauté.</h3><p class="elementor-image-box-description">Nous sommes plus qu'un centre de beauté, notre expérience et notre passion nous ont transformés en leaders du marché de l'ongle en gel. Nous offrons un service professionnel de haute qualité et un accueil personnalisé qui donne un nouveau sens à votre moment de soin personnel.</p></div></div>		</div>
 				</div>
-				<div class="elementor-element elementor-element-8f2680e botao elementor-align-left elementor-widget elementor-widget-button" data-id="8f2680e" data-element_type="widget" data-widget_type="button.default">
+				<div id="btnContact1" class="elementor-element elementor-element-8f2680e botao elementor-align-left elementor-widget elementor-widget-button" data-id="8f2680e" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="https://api.whatsapp.com/send/?phone=32466459225&text&type=phone_number&app_absent=0" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
-							<span class="elementor-button-icon elementor-align-icon-right">
-				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
+						<span class="elementor-button-icon elementor-align-icon-right">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
 						<span class="elementor-button-text">JE VEUX PRENDRE RENDEZ-VOUS.</span>
-		</span>
-					</a>
+						</span>
+			</a>
+			
 		</div>
 				</div>
 				</div>
+				<!-- META PIXEL CONTACT BUTTON 1 -->
+				<script type="text/javascript">
+				  $('#btnContact1').click(function() {
+					fbq('track', 'Contact');
+					window.location.href = "https://api.whatsapp.com/send/?phone=32466459225&text=Je%20souhaite%20connaitre%20les%20tarifs%20et%20prendre%20rendez-vous&type=phone_number&app_absent=0";
+				  });
+				</script>
+				
 					</div>
 				</div>
 		<div class="elementor-element elementor-element-4c33b6c e-con-boxed e-flex e-con" data-id="4c33b6c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
@@ -176,10 +204,10 @@ pintrk('page');
 				</div>
 					</div>
 				</div>
-				<div class="elementor-element elementor-element-329c86b botao elementor-align-center elementor-widget elementor-widget-button" data-id="329c86b" data-element_type="widget" data-widget_type="button.default">
+				<div id="btnContact2" class="elementor-element elementor-element-329c86b botao elementor-align-center elementor-widget elementor-widget-button" data-id="329c86b" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="https://api.whatsapp.com/send/?phone=32466459225&text&type=phone_number&app_absent=0" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
 							<span class="elementor-button-icon elementor-align-icon-right">
 				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>			</span>
@@ -189,6 +217,15 @@ pintrk('page');
 		</div>
 				</div>
 				</div>
+				
+				<!-- META PIXEL CONTACT BUTTON 2 -->
+				<script type="text/javascript">
+				  $('#btnContact2').click(function() {
+					fbq('track', 'Contact');
+					window.location.href = "https://api.whatsapp.com/send/?phone=32466459225&text=Je%20souhaite%20connaitre%20les%20tarifs%20et%20prendre%20rendez-vous&type=phone_number&app_absent=0";
+				  });
+				</script>
+				
 					</div>
 				</div>
 		<div class="elementor-element elementor-element-db7c4ef e-con-boxed e-flex e-con" data-id="db7c4ef" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
@@ -231,10 +268,10 @@ De plus, nous continuerons toujours à innover et à étendre nos services, touj
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><p class="elementor-image-box-description">Venez nous visiter pour découvrir le meilleur de la beauté et profiter d'une expérience inégalée dans un environnement 100% chaleureux et élégant.</p></div></div>		</div>
 				</div>
-				<div class="elementor-element elementor-element-35cb67e botao elementor-align-center elementor-widget elementor-widget-button" data-id="35cb67e" data-element_type="widget" data-widget_type="button.default">
+				<div id="btnLocation" class="elementor-element elementor-element-35cb67e botao elementor-align-center elementor-widget elementor-widget-button" data-id="35cb67e" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="https://api.whatsapp.com/send/?phone=32466459225&text&type=phone_number&app_absent=0" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">JE VEUX CONNAÎTRE L'ESPACE.</span>
 		</span>
@@ -242,6 +279,15 @@ De plus, nous continuerons toujours à innover et à étendre nos services, touj
 		</div>
 				</div>
 				</div>
+				
+				<!-- META PIXEL FIND LOCATION BUTTON 1 -->
+				<script type="text/javascript">
+				  $('#btnLocation').click(function() {
+					fbq('track', 'FindLocation');
+					window.location.href = "https://api.whatsapp.com/send/?phone=32466459225&text=Je%20souhaite%20connaitre%20les%20tarifs%20et%20prendre%20rendez-vous&type=phone_number&app_absent=0";
+				  });
+				</script>
+				
 					</div>
 				</div>
 		<div class="elementor-element elementor-element-7b520bf e-con-boxed e-flex e-con" data-id="7b520bf" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
